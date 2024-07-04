@@ -1,0 +1,47 @@
+body{
+    background: #d2d2c1 url(imagens/fundo.png);
+    font: 16px arial, helvetica, sans-serif;
+}
+
+#principal{
+    width: 900px;
+    margin: 0 auto; /*centralizar o conteudo no centro da horizontal*/
+}
+
+#menu {
+    background:#e2d89d;
+    padding: 25px;
+}
+
+#conteudo {
+    background: #f3f2f5;
+    padding: 15px;
+    text-align: justify;
+}
+
+h1 {
+    color: #661542;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#rodape {
+    text-align: center;
+}
+
+a {
+    color: #0f3fa7;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #dd423e;
+}
+
+.img-campanha {
+    border: 10px solid #afafa2;
+    display: block; /* faz com que a imagem se comporte como um bloco, ocupando toda a largura disponevel*/
+    margin:  auto;
+}
