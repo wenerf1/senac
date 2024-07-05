@@ -1,0 +1,9 @@
+.fundo{
+ 
+    background-image: url(imagens/yoshi.png);
+    background-color: whitesmoke;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: bottom;
+    
+}
