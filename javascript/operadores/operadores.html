@@ -1,0 +1,101 @@
+<script>
+    //1. Operadores aritmeticos
+    let soma = 5 + 8; // let para fazer adição
+    console.log(soma); // 13
+
+    let subtracao = 9 - 3 // let para fazer subtração
+    console.log(subtracao) // 6
+
+    let multiplicacao = 9 * 7; // let para multiplicação
+    console.log(multiplicacao); // 63
+
+    let divisao = 45 / 6; // let para divisão
+    console.log(divisao); // 7,5
+
+    // Mod (%): Retorna o resto da divisão de dois valores.
+    let mod = 5 % 2; // resultado é 1
+    console.log(mod);
+
+    // Incremento (++): Aumenta o valor da variável em 1.
+    let x = 5;
+    x++;
+    console.log(x);
+
+    // Decremento (--): Diminui o valor da variável em 1.
+    let y = 5;
+    y--;
+    console.log(y);
+
+
+
+    // 2. Operadores de comparação
+
+    // Igual a (==) Verifica se dois valores são iguais.
+    let igual = (5 == 3);
+    console.log(igual); //false
+
+    // Diferente (!=): Verifica se dois valores não são iguais.
+    let diferente = (5 != 3);
+    console.log(diferente); //true
+
+    // Exatamente igual a (===): Verifica se dois valores e seus tipos são iguais.
+    let exatamenteIgual = (5 === '5'); // resultado é false
+    console.log(exatamenteIgual);
+
+
+// Exatamente diferente (!==): Verifica se dois valores e seus tipos não são iguais.
+let exatamenteDiferente = (5 !== '5');  // resultado e true
+console.log(exatamenteDiferente)
+
+// Maior que > Verifica se um valor é maior que outro.
+let maior = (5 > 3); // resultado e true
+console.log(maior);
+
+// Menor que < Verifica se um valor é menor que outro.
+let menor = (5 < 3); // resultado e false
+console.log(menor)
+
+// Maior ou igual a >= Verifica se um valor é maior ou igual a outro.
+let maiorOuIgual = (5 >= 3); // resultado é true
+console.log(maiorOuIgual);
+
+// Menor ou igual a <= Verifica se um valor é menor ou igual a outro.
+let menorOuIgual = (5 <= 3); // reultado e false
+console.log(menorOuIgual);
+
+
+
+// 3. Operadores Lógicos
+
+// E && Retorna true se ambas as condições forem verdadeiras.
+let eLogico = ( 5 > 3 && 3 < 10); // resultado é true
+console.log(eLogico)
+
+// Ou || Retorna true se pelo menos uma das combinações for verdadeira.
+let ouLogico = ( 5 > 3 || 3 > 10 ); //resultado e true
+console.log(ouLogico)
+
+
+// 4. Operador de typeof Retorna o tipo de um valor.
+let tipo = typeof 5; // tipo é "number"
+console.log(tipo);
+
+
+
+// 5. Convertendo Variaveis
+let numero = prompt('Digite um número');
+console.log(typeof (numero));
+
+let numero2 = parseInt(prompt('Digite o segundo número ')); // par aparecer valores inteiros
+console.log(typeof(numero2));
+
+let numero3 = parseFloat(prompt('Digite o terceiro número')); // para aparecer valores quebrados
+console.log(typeof(numero3));
+
+
+
+
+
+
+
+</script>
