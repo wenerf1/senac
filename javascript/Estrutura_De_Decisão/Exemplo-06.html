@@ -1,0 +1,42 @@
+<script>
+
+// Exemplo-06:]
+//Crie um programa que solicite um número entre 1 a 7 e imprima no console qual dia da semana corresponde o número
+
+let numero = parseFloat (prompt('Digite um numero entre 1 e 7'));
+numero = Number (numero)
+
+// Not-a number verificar se não corresponde a um número
+
+if ( isNaN(numero) || numero <1 || numero > 7){
+
+// Se o número não for válido ou estiver fora do intervalo 1-7
+console.log('Você não digitou um número entre 1 e 7.');
+}else if (numero === 1){
+    console.log('Domingo');
+
+} else if (numero === 2) {
+    console.log('Segunda');
+
+} else if (numero === 3) {
+    console.log('Terça');
+
+}  else if (numero === 4) {
+    console.log('Quarta');
+
+} else if (numero === 5) {
+    console.log('Quinta');
+
+}else if (numero === 6) {
+    console.log('Sexta');
+
+} else if (numero === 7) {
+    console.log('Sabado');
+
+} else {
+console.log ('Fatal Error')
+}
+
+
+
+</script>
